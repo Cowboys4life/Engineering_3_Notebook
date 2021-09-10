@@ -1,3 +1,5 @@
+# made by Nick
+
 import board
 import neopixel
 import time
