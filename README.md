@@ -14,24 +14,33 @@ This repository will actually serve as a aid to help you get started with your o
 
 ### Description & Code
 Description goes here
-
-Here's how you make code look like code:
-
+It was a very easy assignment that didn't take long too do. It was a basic assignment.
 ```python
-Code goes here
+# made by Nick
+
+import board
+import neopixel
+import time
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+
+while True:
+    print("Make it blue!")
+    dot.fill((0, 0, 255))
+    time.sleep(.5)
+    print("Make it yellow")
+    dot.fill((255,255,0))
+    time.sleep(.5)
+    dot.brightness = 0.2
 
 ```
 
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-
 ### Wiring
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
 
 ### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
+It was an easy assignment and it was not challenging at all.
 
 
 
@@ -39,18 +48,38 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 ## CircuitPython_Servo
 
 ### Description & Code
-
+It was another basic assignment that was just tryna make a servo spin by coding.
 ```python
-Code goes here
+# made by Nick
+"""CircuitPython Essentials Servo standard servo example"""
+import time
+import board
+import pwmio
+from adafruit_motor import servo
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+
+while True:
+    for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
+    for angle in range(180, 0, -5): # 180 - 0 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
 
 ```
 
 ### Evidence
 
 ### Wiring
+![image](https://cdn-learn.adafruit.com/assets/assets/000/053/104/medium640/circuitpython_MetroM4ExpressServo_bb.jpg?1524167660)
 
 ### Reflection
-
+It was an basic assignment that was not challenging at all I think we did this last year but I can't really remember if we did or not.
 
 
 
