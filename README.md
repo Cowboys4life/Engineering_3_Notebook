@@ -83,9 +83,8 @@ It was an basic assignment that was not challenging at all I think we did this l
 
 
 
-## CircuitPython_LCD
-
-### Description & Code
+## CircutPython Distance Sensor
+It was a challenging assignment that took me some time to do. It was a struggle to get started but at the end I knew what I was doing.
 
 ```python
 Code goes here
