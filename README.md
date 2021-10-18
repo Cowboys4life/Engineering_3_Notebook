@@ -6,7 +6,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
-* [CircuitPython_LCD](#CircuitPython_LCD)
+* [CircutPython_Distance_Sensor](#CircutPython_Distance_Sensor)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
@@ -83,10 +83,10 @@ It was an basic assignment that was not challenging at all I think we did this l
 
 
 
-## CircutPython Distance Sensor
+## CircutPython_Distance_Sensor
 It was a challenging assignment that took me some time to do. It was a struggle to get started but at the end I knew what I was doing.
 
-
+```python
 import time
 import board
 import adafruit_hcsr04
