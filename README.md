@@ -74,9 +74,14 @@ while True:
 ```
 
 ### Evidence
+![image](https://github.com/nmckee78/CircuitPython/raw/main/Gif%20folder/ezgif.com-gif-maker%20(1).gif)
+
+Image credit goes to [Nathanial McKee](https://github.com/nmckee78/CircuitPython)
 
 ### Wiring
-![image](https://cdn-learn.adafruit.com/assets/assets/000/053/104/medium640/circuitpython_MetroM4ExpressServo_bb.jpg?1524167660)
+![wiring](https://github.com/nmckee78/CircuitPython/raw/main/Pictures/Brilliant%20Vihelmo-Bigery.png)
+
+Image credit goes to [Nathanial McKee](https://github.com/nmckee78/CircuitPython)
 
 ### Reflection
 It was an basic assignment that was not challenging at all I think we did this last year but I can't really remember if we did or not.
