@@ -14,7 +14,7 @@ This repository will actually serve as a aid to help you get started with your o
 
 ### Description & Code
 Description goes here
-It was a very easy assignment that didn't take long too do. It was a basic assignment.
+It was a very easy assignment that didn't take long too do. It was a basic assignment. Mr. H told me I didnt have to make a wiring diagram, image and no evidence because the codes already in there.
 ```python
 # made by Nick
 
