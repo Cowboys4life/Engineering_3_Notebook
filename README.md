@@ -162,7 +162,9 @@ This code was made by Nathanial
 ![image](https://github.com/Cowboys4life/Engineering_3_Notebook/blob/main/Images/DistanceSensorGif.gif?raw=true)
 
 ### Wiring
-
+ <img src="images/DistanceSensor.png" width="400">
+ 
+ 
 ### Reflection
 It was a struggle at first to get started then i got the hang of it. I got confusing of the wiring on the metro because I didn't know where they went at first but Luka helped me and I appericate Lukas help.
 
