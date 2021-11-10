@@ -152,6 +152,9 @@ while True:
     dot.fill((int(r), int(b), int(g)))
     time.sleep(0.05)
 
+This code was made by Nathanial
+
+
 ```
 
 ### Evidence
