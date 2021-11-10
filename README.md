@@ -160,7 +160,7 @@ This code was made by Nathanial
 ### Evidence
 
 ![image](https://github.com/Cowboys4life/Engineering_3_Notebook/blob/main/Images/DistanceSensorGif.gif?raw=true)
-
+It changes color based on how far the object is from the ultrasonic. There is a sensor that senses and changes the color based on how far the object is.
 ### Wiring
 
 ![image](https://github.com/Cowboys4life/Engineering_3_Notebook/blob/main/Images/DistanceSensor.png?raw=true)
