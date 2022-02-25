@@ -215,7 +215,7 @@ while True:
     time.sleep(0.05)
     
  ### Images 
-<img src="images/Arm.png" alt="motaharu" width="400">
+<img src="images/Arm.png" width="400">
 
 
 
