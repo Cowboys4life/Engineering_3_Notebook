@@ -188,7 +188,7 @@ import simpleio
 from adafruit_motor import servo
 from analogio import AnalogIn
 
-# servo pin for the M0 boards:
+ servo pin for the M0 boards:
 pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
 pwm2 = pwmio.PWMOut(board.A3, duty_cycle=2 ** 15, frequency=50)
 
@@ -198,7 +198,7 @@ my_servo2 = servo.Servo(pwm2)
 angle = 0
 angle2 = 0
 
-# potentiometer
+potentiometer
 trimpot = AnalogIn(board.A1)  # pot pin for servo control
 trimpot2 = AnalogIn(board.A0)  # pot pin for servo control
 
@@ -215,7 +215,7 @@ while True:
     time.sleep(0.05)
     
  ### Images 
-
+<img src="images/Arm.png" alt="motaharu" width="400">
 
 
 
