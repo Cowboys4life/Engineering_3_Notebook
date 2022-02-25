@@ -169,8 +169,10 @@ It changes color based on how far the object is from the ultrasonic. There is a 
 It was a struggle at first to get started then i got the hang of it. I got confusing of the wiring on the metro because I didn't know where they went at first but Luka helped me and I appericate Lukas help.
 
 ## Robot arm
-### Description
 
+
+### Description
+This project was supposed to be a nerf gun strapped onto two servos that made it a turret. The servos would allow the blaster to move vertically and horizontally. As for the blaster, our goal was to have the dart go at least 15 MPH. We had a base that had two servos on it, it was supposed to hold the blaster as it fires with a servo pulling the trigger. We tried to build a holster for the blaster that would attach to the servo so it could move.
 
 
 ### Code
@@ -215,11 +217,7 @@ while True:
     time.sleep(0.05)
     
  ### Images 
-<img src="images/Arm.png" width="400">
-
-
-
-
+https://docs.google.com/document/d/12MXsCBQTy6oUYVpjbeF3IZtGf592FxAnarE-sQJ-BMw/edit
 
 
 
