@@ -168,20 +168,60 @@ It changes color based on how far the object is from the ultrasonic. There is a 
 ### Reflection
 It was a struggle at first to get started then i got the hang of it. I got confusing of the wiring on the metro because I didn't know where they went at first but Luka helped me and I appericate Lukas help.
 
+## Robot arm
+### Description
 
 
 
-## NextAssignment
+### Code
+ # SPDX-FileCopyrightText: 2018 Mikey Sklar for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
 
-### Description & Code
+# Trinket Gemma Servo Control
+# for Adafruit M0 boards
 
-```python
-Code goes here
+import board
+import time
+import pwmio
+import simpleio
+from adafruit_motor import servo
+from analogio import AnalogIn
 
-```
+# servo pin for the M0 boards:
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+pwm2 = pwmio.PWMOut(board.A3, duty_cycle=2 ** 15, frequency=50)
 
-### Evidence
+my_servo = servo.Servo(pwm)
+my_servo2 = servo.Servo(pwm2)
 
-### Wiring
+angle = 0
+angle2 = 0
+
+# potentiometer
+trimpot = AnalogIn(board.A1)  # pot pin for servo control
+trimpot2 = AnalogIn(board.A0)  # pot pin for servo control
+
+
+while True:
+
+    angle = simpleio.map_range(trimpot.value, 0, 65535, 0, 180)
+    my_servo.angle = angle
+    time.sleep(0.05)
+
+    angle2 = simpleio.map_range(trimpot2.value, 0, 65535, 0, 180)
+    my_servo2.angle = angle2
+    print("Servo1 =", angle, "Servo2 =", angle2)
+    time.sleep(0.05)
+    
+ ### Images 
+
+
+
+
+
+
+
 
 ### Reflection
+We did not finish our project. We had a lot of obstacles that me and Luka had to face. We had no way of getting a blaster so Mr. H had to give us one a week before the project was due. Me and Luka also spent a lot of time doing the cad and the coding because it was challeging. Since we only had about 1 week with the blaster, it made the CAD much harder. We didn't have the exact measurements that we needed so we had to work on estimations. The coding part was really easy however and that was one of the first things we got done compleatley.
