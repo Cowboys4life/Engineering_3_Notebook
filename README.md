@@ -174,12 +174,12 @@ It was a struggle at first to get started then i got the hang of it. I got confu
 
 
 ### Code
- # SPDX-FileCopyrightText: 2018 Mikey Sklar for Adafruit Industries
-#
-# SPDX-License-Identifier: MIT
+  SPDX-FileCopyrightText: 2018 Mikey Sklar for Adafruit Industries
 
-# Trinket Gemma Servo Control
-# for Adafruit M0 boards
+SPDX-License-Identifier: MIT
+
+ Trinket Gemma Servo Control
+ for Adafruit M0 boards
 
 import board
 import time
